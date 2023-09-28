@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-28T08:11:16.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="Wmhfdpol6gGXz0RX_FIA" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-28T08:25:49.757Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="EmppdJnEqKPu1ZOX2IdR" version="21.8.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1592" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1303" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LDZOGL6RjCqKWwn9CAl1-1" value="VEHICULE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="80" width="280" height="200" as="geometry" />
+          <mxGeometry x="120" y="80" width="360" height="280" as="geometry" />
         </mxCell>
         <mxCell id="LDZOGL6RjCqKWwn9CAl1-2" value="&amp;nbsp;COULEUR(string)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-1">
           <mxGeometry y="20" width="120" height="30" as="geometry" />
@@ -17,13 +17,31 @@
           <mxGeometry y="60" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LDZOGL6RjCqKWwn9CAl1-10" value="demarrer() : affiche &quot;Le véhicule démarre&quot;&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-1">
-          <mxGeometry y="110" width="250" height="30" as="geometry" />
+          <mxGeometry y="140" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LDZOGL6RjCqKWwn9CAl1-11" value="arreter() : affiche &quot;Le véhicule s&#39;arrête" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-1">
-          <mxGeometry y="140" width="220" height="30" as="geometry" />
+          <mxGeometry y="160" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LDZOGL6RjCqKWwn9CAl1-3" value="VOITURE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="360" width="200" height="200" as="geometry" />
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-21" value="getCouleur() : retourne la couleur du véhicule" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-1">
+          <mxGeometry y="180" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-22" value="setCouleur(couleur : String) : modifie la couleur du véhicule" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-1">
+          <mxGeometry y="200" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-23" value="getMarque() : retourne la marque du véhicule" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-1">
+          <mxGeometry y="220" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-24" value="setMarque(marque : String) : modifie la marque du véhicule" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-1">
+          <mxGeometry y="240" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-3" value="MOTO" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-18" value="TYPEMOTO(string)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-3">
+          <mxGeometry y="30" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-20" value="accelerer() : affiche &quot;La (type de moto) accélère&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-3">
+          <mxGeometry y="120" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LDZOGL6RjCqKWwn9CAl1-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LDZOGL6RjCqKWwn9CAl1-1" target="LDZOGL6RjCqKWwn9CAl1-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -31,8 +49,17 @@
             <mxPoint x="290" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LDZOGL6RjCqKWwn9CAl1-5" value="MOTO" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="360" width="200" height="200" as="geometry" />
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-5" value="VOITURE" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="440" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-14" value="MODELE(string)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-5">
+          <mxGeometry x="5" y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-15" value="NOMBREPORTES(int)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-5">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-17" value="klaxonner() : affiche &quot;Tut tut !&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LDZOGL6RjCqKWwn9CAl1-5">
+          <mxGeometry y="110" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LDZOGL6RjCqKWwn9CAl1-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LDZOGL6RjCqKWwn9CAl1-1" target="LDZOGL6RjCqKWwn9CAl1-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -44,6 +71,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="300" as="sourcePoint" />
             <mxPoint x="250" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LDZOGL6RjCqKWwn9CAl1-5" target="LDZOGL6RjCqKWwn9CAl1-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="390" as="sourcePoint" />
+            <mxPoint x="40" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDZOGL6RjCqKWwn9CAl1-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LDZOGL6RjCqKWwn9CAl1-3" target="LDZOGL6RjCqKWwn9CAl1-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="360" as="sourcePoint" />
+            <mxPoint x="500" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
